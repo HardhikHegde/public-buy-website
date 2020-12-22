@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Public Buy</title>
+  <meta name="description" content="[A short description of this site for SEO]">
+  <meta name="author" content="[Hardhik Hegde]">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="topnav">
+      <a href="index.html" class="logoPlace" id="logoPlace"><img src="img\public buy logo.png" class="logo"
+          alt="Public buy"></a>
+      <a class="active" href="#">Shop</a>
+      <a href="#">Men</a>
+      <a href="#">Women</a>
+      <a href="#">Offers</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+      <a href="#"><span class="material-icons" aria-label="Favourites">favorite_border</span></a>
+      <a href="#"><span class="material-icons" aria-label="Items in your cart">shopping_cart</span></a>
+      <form class="search">
+        <label>Search
+          <input type="search" name="find" id="find">
+        </label>
+        <button type="button"><span class="material-icons">search</span></button>
+
+        <button type="button" class="nav-toggle">
+          <span class="material-icons">menu</span>
+        </button>
+      </form>
+    </div>
+  </header>
+  <main class="products">
+    <header class="heading">
+      <h1>End of Season Sale</h1>
+    </header>
+
+
+    <!-- Filtering product form -->
+    <form class="filters">
+      <div class="row">
+        <div class="filter-options column">
+
+          <h2>Filters</h2>
+
+          <fieldset>
+            <legend>Colour</legend>
+            <ul class="filter-list">
+              <li><input type="checkbox" name="colour" value="black" id="black"> <label for="black">Black</label></li>
+              <li><input type="checkbox" name="colour" value="white" id="white"> <label for="white">White</label></li>
+              <li><input type="checkbox" name="colour" value="grey" id="grey"> <label for="grey">Grey</label></li>
+              <li><input type="checkbox" name="colour" value="red" id="red"> <label for="red">Red</label></li>
+              <li><input type="checkbox" name="colour" value="blue" id="blue"> <label for="blue">Blue</label></li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legend>Sizes</legend>
+            <ol class="filter-list">
+              <li><input type="checkbox" name="size" value="xs" id="xs"> <label for="xs">XS</label></li>
+              <li><input type="checkbox" name="size" value="sm" id="sm"> <label for="sm">S</label></li>
+              <li><input type="checkbox" name="size" value="md" id="md"> <label for="md">M</label></li>
+              <li><input type="checkbox" name="size" value="lg" id="lg"> <label for="lg">L</label></li>
+              <li><input type="checkbox" name="size" value="xl" id="xl"> <label for="xl">XL</label></li>
+            </ol>
+          </fieldset>
+          <fieldset>
+            <legend>Ratings (above)</legend>
+            <ol class="filter-list">
+              <li>
+                <input type="radio" name="rating" value="4" id="aboveFour">
+                <label for="aboveFour">
+                  <span class="material-icons">star</span><span class="material-icons">star</span><span
+                    class="material-icons">star</span><span class="material-icons">star</span><span
+                    class="material-icons">star_border</span>
+                </label>
+              </li>
+              <li>
+                <input type="radio" name="rating" value="3" id="aboveThree">
+                <label for="aboveThree">
+                  <span class="material-icons">star</span><span class="material-icons">star</span><span
+                    class="material-icons">star</span><span class="material-icons">star_border</span><span
+                    class="material-icons">star_border</span>
+                </label>
+              </li>
+              <li>
+                <input type="radio" name="rating" value="2" id="aboveTwo">
+                <label for="aboveTwo">
+                  <span class="material-icons">star</span><span class="material-icons">star</span><span
+                    class="material-icons">star_border</span><span class="material-icons">star_border</span><span
+                    class="material-icons">star_border</span>
+                </label>
+              </li>
+              <li>
+                <input type="radio" name="rating" value="1" id="aboveOne">
+                <label for="aboveOne">
+                  <span class="material-icons">star</span><span class="material-icons">star_border</span><span
+                    class="material-icons">star_border</span><span class="material-icons">star_border</span><span
+                    class="material-icons">star_border</span>
+                </label>
+              </li>
+            </ol>
+          </fieldset>
+          <fieldset>
+            <label for="sort">Show</label>
+            <select name="sort" id="sort">
+              <option value="price-high">Price, highest to lowest</option>
+              <option value="price-low">Price, lowest to highest</option>
+              <option value="newest">Newest releases</option>
+            </select>
+          </fieldset>
+        </div>
+
+        <div class='column'>
+          <section class="results">
+            <h2 class="subheading" style="width: 400px;">Results(1-6 of 37 products found)</h2>
+            <div class="row">
+              <div class="column">
+                <article class="product" style="width: 220px;">
+                  <header>
+                    <img src="img\tshirt\500.png" alt="Product Image" style="width:100%">
+                    <h3>Grey crew neck tshirt</h3>
+                    <data value="39"><del>$50.00</del> <ins>$39.00</ins></data>
+                    <p>Here is a shot of this product that might entice a user to click and add it to their cart.</p>
+                    <dl>
+                      <dt>Rating</dt>
+                      <dd>4.4 <span class="material-icons">star</span><span class="material-icons">star</span><span
+                          class="material-icons">star</span><span class="material-icons">star</span><span
+                          class="material-icons">star_half</span></dd>
+                    </dl>
+                    <a href="#">see more</a>
+                  </header>
+                  <form>
+                    <fieldset>
+                      <legend>Colours</legend>
+                      <ul>
+                        <li><label><input type="radio" name="colour" value="r"> Red</label></li>
+                        <li><label><input type="radio" name="colour" value="w"> White</label></li>
+                        <li><label><input type="radio" name="colour" value="b"> Blue</label></li>
+                      </ul>
+                    </fieldset>
+                    <fieldset>
+                      <legend>Sizes</legend>
+                      <ol>
+                        <li><label><input type="radio" name="size" value="m"> M</label></li>
+                        <li><label><input type="radio" name="size" value="l"> L</label></li>
+                        <li><label><input type="radio" name="size" value="xl"> XL</label></li>
+                      </ol>
+                    </fieldset>
+                  </form>
+                  <footer>
+                    <button type="button"><span class="material-icons">add_shopping_cart</span> Add to Cart</button>
+                    <button type="button"><span class="material-icons">favorite</span></button>
+                  </footer>
+                </article>
+              </div>
+              <div class="column">
+                <article class="product" style="width: 220px;margin-left: 180px">
+                  <header>
+                    <img src="img\tshirt\500 (1).png" alt="Product Image" style="width:100%">
+                    <h3>Pink crew neck tshirt</h3>
+                    <data value="39"><del>$50.00</del> <ins>$39.00</ins></data>
+                    <p>Here is a shot of this product that might entice a user to click and add it to their cart.</p>
+                    <dl>
+                      <dt>Rating</dt>
+                      <dd>4.4 <span class="material-icons">star</span><span class="material-icons">star</span><span
+                          class="material-icons">star</span><span class="material-icons">star</span><span
+                          class="material-icons">star_half</span></dd>
+                    </dl>
+                    <a href="#">see more</a>
+                  </header>
+                  <form>
+                    <fieldset>
+                      <legend>Colours</legend>
+                      <ul>
+                        <li><label><input type="radio" name="colour" value="r"> Red</label></li>
+                        <li><label><input type="radio" name="colour" value="w"> White</label></li>
+                        <li><label><input type="radio" name="colour" value="b"> Blue</label></li>
+                      </ul>
+                    </fieldset>
+                    <fieldset>
+                      <legend>Sizes</legend>
+                      <ol>
+                        <li><label><input type="radio" name="size" value="m"> M</label></li>
+                        <li><label><input type="radio" name="size" value="l"> L</label></li>
+                        <li><label><input type="radio" name="size" value="xl"> XL</label></li>
+                      </ol>
+                    </fieldset>
+                  </form>
+                  <footer>
+                    <button type="button"><span class="material-icons">add_shopping_cart</span> Add to Cart</button>
+                    <button type="button"><span class="material-icons">favorite</span></button>
+                  </footer>
+                </article>
+              </div>
+              <div class="column">
+                <article class="product" style="width: 220px;margin-left: 360px">
+                  <header>
+                    <img src="img\tshirt\500 (2).png" alt="Product Image" style="width:100%">
+                    <h3>Neon crew neck tshirt</h3>
+                    <data value="39"><del>$50.00</del> <ins>$39.00</ins></data>
+                    <p>Here is a shot of this product that might entice a user to click and add it to their cart.</p>
+                    <dl>
+                      <dt>Rating</dt>
+                      <dd>4.4 <span class="material-icons">star</span><span class="material-icons">star</span><span
+                          class="material-icons">star</span><span class="material-icons">star</span><span
+                          class="material-icons">star_half</span></dd>
+                    </dl>
+                    <a href="#">see more</a>
+                  </header>
+                  <form>
+                    <fieldset>
+                      <legend>Colours</legend>
+                      <ul>
+                        <li><label><input type="radio" name="colour" value="r"> Red</label></li>
+                        <li><label><input type="radio" name="colour" value="w"> White</label></li>
+                        <li><label><input type="radio" name="colour" value="b"> Blue</label></li>
+                      </ul>
+                    </fieldset>
+                    <fieldset>
+                      <legend>Sizes</legend>
+                      <ol>
+                        <li><label><input type="radio" name="size" value="m"> M</label></li>
+                        <li><label><input type="radio" name="size" value="l"> L</label></li>
+                        <li><label><input type="radio" name="size" value="xl"> XL</label></li>
+                      </ol>
+                    </fieldset>
+                  </form>
+                  <footer>
+                    <button type="button"><span class="material-icons">add_shopping_cart</span> Add to Cart</button>
+                    <button type="button"><span class="material-icons">favorite</span></button>
+                  </footer>
+                </article>
+              </div>
+            </div>
+            <div class="row">
+              <div class="column">
+                <article class="product" style="width: 220px;">
+                  <header>
+                    <img src="img\tshirt\500 (4).png" alt="Product Image" style="width:100%">
+                    <h3>Purple crew neck tshirt</h3>
+                    <data value="39"><del>$50.00</del> <ins>$39.00</ins></data>
+                    <p>Here is a shot of this product that might entice a user to click and add it to their cart.</p>
+                    <dl>
+                      <dt>Rating</dt>
+                      <dd>4.4 <span class="material-icons">star</span><span class="material-icons">star</span><span
+                          class="material-icons">star</span><span class="material-icons">star</span><span
+                          class="material-icons">star_half</span></dd>
+                    </dl>
+                    <a href="#">see more</a>
+                  </header>
+                  <form>
+                    <fieldset>
+                      <legend>Colours</legend>
+                      <ul>
+                        <li><label><input type="radio" name="colour" value="r"> Red</label></li>
+                        <li><label><input type="radio" name="colour" value="w"> White</label></li>
+                        <li><label><input type="radio" name="colour" value="b"> Blue</label></li>
+                      </ul>
+                    </fieldset>
+                    <fieldset>
+                      <legend>Sizes</legend>
+                      <ol>
+                        <li><label><input type="radio" name="size" value="m"> M</label></li>
+                        <li><label><input type="radio" name="size" value="l"> L</label></li>
+                        <li><label><input type="radio" name="size" value="xl"> XL</label></li>
+                      </ol>
+                    </fieldset>
+                  </form>
+                  <footer>
+                    <button type="button"><span class="material-icons">add_shopping_cart</span> Add to Cart</button>
+                    <button type="button"><span class="material-icons">favorite</span></button>
+                  </footer>
+                </article>
+              </div>
+              <div class="column">
+                <article class="product" style="width: 220px;margin-left: 180px">
+                  <header>
+                    <img src="img\tshirt\500 (5).png" alt="Product Image" style="width:100%">
+                    <h3>Yellow crew neck tshirt</h3>
+                    <data value="39"><del>$50.00</del> <ins>$39.00</ins></data>
+                    <p>Here is a shot of this product that might entice a user to click and add it to their cart.</p>
+                    <dl>
+                      <dt>Rating</dt>
+                      <dd>4.4 <span class="material-icons">star</span><span class="material-icons">star</span><span
+                          class="material-icons">star</span><span class="material-icons">star</span><span
+                          class="material-icons">star_half</span></dd>
+                    </dl>
+                    <a href="#">see more</a>
+                  </header>
+                  <form>
+                    <fieldset>
+                      <legend>Colours</legend>
+                      <ul>
+                        <li><label><input type="radio" name="colour" value="r"> Red</label></li>
+                        <li><label><input type="radio" name="colour" value="w"> White</label></li>
+                        <li><label><input type="radio" name="colour" value="b"> Blue</label></li>
+                      </ul>
+                    </fieldset>
+                    <fieldset>
+                      <legend>Sizes</legend>
+                      <ol>
+                        <li><label><input type="radio" name="size" value="m"> M</label></li>
+                        <li><label><input type="radio" name="size" value="l"> L</label></li>
+                        <li><label><input type="radio" name="size" value="xl"> XL</label></li>
+                      </ol>
+                    </fieldset>
+                  </form>
+                  <footer>
+                    <button type="button"><span class="material-icons">add_shopping_cart</span> Add to Cart</button>
+                    <button type="button"><span class="material-icons">favorite</span></button>
+                  </footer>
+                </article>
+              </div>
+              <div class="column">
+                <article class="product" style="width: 220px;margin-left: 360px">
+                  <header>
+                    <img src="img\tshirt\500 (6).png" alt="Product Image" style="width:100%">
+                    <h3>Olive crew neck tshirt</h3>
+                    <data value="39"><del>$50.00</del> <ins>$39.00</ins></data>
+                    <p>Here is a shot of this product that might entice a user to click and add it to their cart.</p>
+                    <dl>
+                      <dt>Rating</dt>
+                      <dd>4.4 <span class="material-icons">star</span><span class="material-icons">star</span><span
+                          class="material-icons">star</span><span class="material-icons">star</span><span
+                          class="material-icons">star_half</span></dd>
+                    </dl>
+                    <a href="#">see more</a>
+                  </header>
+                  <form>
+                    <fieldset>
+                      <legend>Colours</legend>
+                      <ul>
+                        <li><label><input type="radio" name="colour" value="r"> Red</label></li>
+                        <li><label><input type="radio" name="colour" value="w"> White</label></li>
+                        <li><label><input type="radio" name="colour" value="b"> Blue</label></li>
+                      </ul>
+                    </fieldset>
+                    <fieldset>
+                      <legend>Sizes</legend>
+                      <ol>
+                        <li><label><input type="radio" name="size" value="m"> M</label></li>
+                        <li><label><input type="radio" name="size" value="l"> L</label></li>
+                        <li><label><input type="radio" name="size" value="xl"> XL</label></li>
+                      </ol>
+                    </fieldset>
+                  </form>
+                  <footer>
+                    <button type="button"><span class="material-icons">add_shopping_cart</span> Add to Cart</button>
+                    <button type="button"><span class="material-icons">favorite</span></button>
+                  </footer>
+                </article>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </form>
+    <br />
+    <div class="pagination">
+      <a href="#">&laquo;</a>
+      <a class="active" href="#">1</a>
+      <a href="#">2</a>
+      <a href="#">3</a>
+      <a href="#">4</a>
+      <a href="#">5</a>
+      <a href="#">6</a>
+      <a href="#">&raquo;</a>
+    </div>
+
+
+    </nav>
+  </main>
+  </br>
+  <footer class="page-footer" style="margin-left:75%">
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-instagram"></a>
+
+    <nav aria-label="Legal">
+      <ul class="legal">
+        <li><a href="#">Terms of Use</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Accessibility Policy</a></li>
+      </ul>
+    </nav>
+    <p class="copyright">&copy; Copyright, 2020.</p>
+  </footer>
+
+</body>
+
+</html>
